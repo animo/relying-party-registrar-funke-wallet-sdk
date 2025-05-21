@@ -1,3 +1,5 @@
+export { client } from './client/client.gen'
+
 export { certificateAuthority } from './certificateAuthority'
 export { relyingParties } from './relyingParties'
 export { accessCertificate } from './accessCertificate'
