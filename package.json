@@ -1,0 +1,22 @@
+{
+  "name": "relying-party-registrar-funke-sdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate-sdk": "openapi-ts -i https://funke-wallet.de/-json -o src/client -c @hey-api/client-axios",
+    "style:check": "biome check --unsafe",
+    "style:fix": "pnpm style:check --write"
+  },
+  "packageManager": "pnpm@10.8.1",
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@hey-api/openapi-ts": "^0.67.5",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@hey-api/client-axios": "^0.7.1",
+    "axios": "^1.9.0"
+  }
+}
