@@ -1,6 +1,6 @@
 {
   "name": "@animo-id/relying-party-registrar-funke-wallet-sdk",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "SDK wrapper around the relying party registrar for the SPRIN-D funke EUDI wallet project",
   "files": ["dist"],
   "scripts": {

@@ -4,7 +4,7 @@
   },
   "npm": {
     "skipChecks": true,
-    "ignoreVersion": true,
+    "ignoreVersion": false,
     "tag": "latest"
   },
   "git": {
