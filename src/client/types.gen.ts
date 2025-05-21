@@ -465,7 +465,7 @@ export type StatusListControllerCrlFileResponses = {
   /**
    * The CRL file in DER format
    */
-  200: Blob | File
+  200: Uint8Array
 }
 
 export type StatusListControllerCrlFileResponse =
