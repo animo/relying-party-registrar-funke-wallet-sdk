@@ -249,6 +249,7 @@ packages:
 
   '@hey-api/client-axios@0.7.1':
     resolution: {integrity: sha512-qFHLhrRssIr8kRr3TcYFfaIXbTRbvWJK8q5jH2e7YRIH29fwGcbk8Ud1B7JyBashPXEGpnypM9ygNOCo6vVKAA==}
+    deprecated: Starting with v0.73.0, this package is bundled directly inside @hey-api/openapi-ts.
     peerDependencies:
       '@hey-api/openapi-ts': < 2
       axios: '>= 1.0.0 < 2'
